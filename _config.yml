@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: The Career Survival Guide
+description: This book is about making the most of your time at your job, and the rest of your career.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://the-career-survival-guide.github.io
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "home"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  # Template Repository: https://github.com/just-the-docs/just-the-docs-template
